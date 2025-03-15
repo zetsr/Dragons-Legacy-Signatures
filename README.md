@@ -5,6 +5,8 @@
 目前所有特征码均能扫描成功。
 
 ### *float* view_distance
+`有时候不稳定，需调查。`
+
 `00 ?? ?? ?? 00 00 96 43 00 00 C8 42 00 00 96 44`
 
 ### *float* fps_max
@@ -12,3 +14,10 @@
 
 ### *float* local_player health
 `?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`
+
+### *int* lp_connect_full
+`有时候不稳定，需调查。`
+
+`随机返回0`
+
+`"Dragons-Win64-Shipping.exe"+0x02F746D0, 0x10, 0x28, 0x2A0, 0x740`
