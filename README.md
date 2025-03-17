@@ -4,6 +4,9 @@
 
 目前所有特征码均能扫描成功。
 
+### *string* game_version
+`42 75 69 6C 64 20 ?? 2E` = `Build ?.`
+
 ### *float* view_distance
 ~~`有时候不稳定，需调查。`~~
 
