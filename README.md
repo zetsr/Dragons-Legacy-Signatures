@@ -15,9 +15,19 @@
 ### *float* local_player health
 `?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`
 
-### *int* local_player_connect_full
+### *int* local_player_first_person <sup>?</sup>
 `有时候不稳定，需调查。`
 
-`随机返回0`
-
 `"Dragons-Win64-Shipping.exe"+0x02F746D0, 0x10, 0x28, 0x2A0, 0x740`
+
+### *float* camera_position.x
+
+`"Dragons-Win64-Shipping.exe"+0x0304B3C0, 0x2D0`
+
+### *float* camera_position.y
+
+`camera_position.x+0x4`
+
+### *float* camera_position.z
+
+`camera_position.x+0x8`
