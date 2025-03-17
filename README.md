@@ -20,103 +20,38 @@
 ### *float* render_distance <sup>0=No-Foliage</sup>
 `?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 34 42 00 00 80 3F`
 
-### *float* local_player_health <sup>Flame Stalker<sup>
+### *float* local_player_health <sup>info<sup>
+`不稳定，需调查。`
 `?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`
 
-### *byte* local_player_SkinIndex <sup>Flame Stalker<sup>
+### *byte* local_player_SkinIndex <sup>info<sup>
 `local_player_health - 0x4`
 
-### *byte* local_player_Gender <sup>Flame Stalker<sup>
+### *byte* local_player_Gender <sup>info<sup>
 `local_player_health - 0x3`
 
-### *float* local_player_armor <sup>Flame Stalker<sup>
+### *float* local_player_armor <sup>info<sup>
 `local_player_health + 0x4`
 
-### *byte* local_player_stamina <sup>Flame Stalker<sup> <sup>无限耐力<sup> 
+### *byte* local_player_stamina <sup>info<sup> <sup>无限耐力<sup> 
 `local_player_health + 0x8`
 
-### *byte* local_player_bile <sup>Flame Stalker<sup>
+### *byte* local_player_bile <sup>info<sup>
 `local_player_health + 0x9`
 
-### *byte* local_player_hunger <sup>Flame Stalker<sup>
+### *byte* local_player_hunger <sup>info<sup>
 `local_player_health + 0xA`
 
-### *byte* local_player_thirsty <sup>Flame Stalker<sup>
+### *byte* local_player_thirsty <sup>info<sup>
 `local_player_health + 0xB`
 
-### *byte* local_player_disease <sup>Flame Stalker<sup>
+### *byte* local_player_disease <sup>info<sup>
 `local_player_health + 0xC`
 
-### *byte* local_player_stats_VitalityHealth <sup>Flame Stalker<sup>
+### *byte* local_player_stats_VitalityHealth <sup>info<sup>
 `local_player_health + 0x1C`
 
-### *byte* local_player_stats_OverallQuality <sup>Flame Stalker<sup>
-`local_player_stats_VitalityHealth + 0x12`
-
-### *float* local_player_health <sup>Shadow Scale<sup>
-`?? ?? ?? ?? ?? ?? ?? ?? DF 77 ?? ?? ?? 00 03 00`
-
-### *byte* local_player_SkinIndex <sup>Shadow Scale<sup>
-`local_player_health - 0x4`
-
-### *byte* local_player_Gender <sup>Shadow Scale<sup>
-`local_player_health - 0x3`
-
-### *float* local_player_armor <sup>Shadow Scale<sup>
-`local_player_health + 0x4`
-
-### *byte* local_player_stamina <sup>Shadow Scale<sup> <sup>无限耐力<sup> 
-`local_player_health + 0x8`
-
-### *byte* local_player_bile <sup>Shadow Scale<sup>
-`local_player_health + 0x9`
-
-### *byte* local_player_hunger <sup>Shadow Scale<sup>
-`local_player_health + 0xA`
-
-### *byte* local_player_thirsty <sup>Shadow Scale<sup>
-`local_player_health + 0xB`
-
-### *byte* local_player_disease <sup>Shadow Scale<sup>
-`local_player_health + 0xC`
-
-### *byte* local_player_stats_VitalityHealth <sup>Shadow Scale<sup>
-`local_player_health + 0x1C`
-
-### *byte* local_player_stats_OverallQuality <sup>Shadow Scale<sup>
-`local_player_stats_VitalityHealth + 0x12`
-
-### *float* local_player_health <sup>Acid Spitter<sup>
-`?? ?? ?? ?? ?? ?? ?? ?? EB 77 ?? ?? ?? 00 03 00`
-
-### *byte* local_player_SkinIndex <sup>Acid Spitter<sup>
-`local_player_health - 0x4`
-
-### *byte* local_player_Gender <sup>Acid Spitter<sup>
-`local_player_health - 0x3`
-
-### *float* local_player_armor <sup>Acid Spitter<sup>
-`local_player_health + 0x4`
-
-### *byte* local_player_stamina <sup>Acid Spitter<sup> <sup>无限耐力<sup> 
-`local_player_health + 0x8`
-
-### *byte* local_player_bile <sup>Acid Spitter<sup>
-`local_player_health + 0x9`
-
-### *byte* local_player_hunger <sup>Acid Spitter<sup>
-`local_player_health + 0xA`
-
-### *byte* local_player_thirsty <sup>Acid Spitter<sup>
-`local_player_health + 0xB`
-
-### *byte* local_player_disease <sup>Acid Spitter<sup>
-`local_player_health + 0xC`
-
-### *byte* local_player_stats_VitalityHealth <sup>Acid Spitter<sup>
-`local_player_health + 0x1C`
-
-### *byte* local_player_stats_OverallQuality <sup>Acid Spitter<sup>
+### *byte* local_player_stats_OverallQuality <sup>info<sup>
 `local_player_stats_VitalityHealth + 0x12`
 
 ### *int* client_current_time <sup>?</sup>
