@@ -23,10 +23,16 @@
 ### *float* local_player_health <sup>Flame Stalker<sup>
 `?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`
 
+### *float* local_player_SkinIndex <sup>Flame Stalker<sup>
+`local_player_health - 0x4`
+
+### *float* local_player_Gender <sup>Flame Stalker<sup>
+`local_player_health - 0x3`
+
 ### *float* local_player_armor <sup>Flame Stalker<sup>
 `local_player_health + 0x4`
 
-### *byte* local_player_stamina <sup>Flame Stalker<sup>
+### *byte* local_player_stamina <sup>Flame Stalker<sup> <sup>无限耐力<sup> 
 `local_player_health + 0x9`
 
 ### *byte* local_player_bile <sup>Flame Stalker<sup>
@@ -50,10 +56,16 @@
 ### *float* local_player_health <sup>Shadow Scale<sup>
 `?? ?? ?? ?? ?? ?? ?? ?? DF 77 ?? ?? ?? 00 03 00`
 
+### *float* local_player_SkinIndex <sup>Shadow Scale<sup>
+`local_player_health - 0x4`
+
+### *float* local_player_Gender <sup>Shadow Scale<sup>
+`local_player_health - 0x3`
+
 ### *float* local_player_armor <sup>Shadow Scale<sup>
 `local_player_health + 0x4`
 
-### *byte* local_player_stamina <sup>Shadow Scale<sup>
+### *byte* local_player_stamina <sup>Shadow Scale<sup> <sup>无限耐力<sup> 
 `local_player_health + 0x9`
 
 ### *byte* local_player_bile <sup>Shadow Scale<sup>
