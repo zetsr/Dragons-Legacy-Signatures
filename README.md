@@ -9,6 +9,9 @@
 
 `42 75 69 6C 64 20 ?? 2E` = `Build ?.`
 
+### *string* local_player_steam_name
+`00 00 70 03 ?? ?? ?? ?? 00 00 00 00 00 00 00 00 00 00 0B + 0x14`
+
 ### *float* view_distance
 ~~`有时候不稳定，需调查。`~~
 
