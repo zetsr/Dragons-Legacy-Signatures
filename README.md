@@ -84,7 +84,7 @@
 
 ### *float* camera_position.z
 
-`camera_position.x+0x8`
+`camera_position.x + 0x8`
 
 ### *byte* enemy_health
 ~~`应该会返回所有非休眠状态的玩家实体，idk，所有玩家全部休眠的时候也能扫到一堆不知道是什么东西的地址。`~~
