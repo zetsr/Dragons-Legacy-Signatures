@@ -27,39 +27,42 @@
 ### *float* render_distance <sup>0=No-Foliage</sup>
 `?? ?? ?? ?? ?? ?? ?? ?? 00 00 00 00 00 00 80 3F 00 00 00 00 00 00 34 42 00 00 80 3F`
 
-### *float* local_player_health <sup>info<sup>
-`不稳定，需调查。`
+~~### *float* local_player_health <sup>info<sup>~~
+~~`不稳定，需调查。`~~
 
-`行不通，失效实体的内存不会被释放，所有东西都是过时的。`
+~~`行不通，失效实体的内存不会被释放，所有东西都是过时的。`~~
 
 ~~`?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`~~
 
 ### *byte* local_player_SkinIndex <sup>info<sup>
-`local_player_health - 0x4`
+`"Dragons-Win64-Shipping.exe" + 0x03004780, 0x0, 0x110, 0x140, 0x6C8`
 
 ### *byte* local_player_Gender <sup>info<sup>
-`local_player_health - 0x3`
+`local_player_SkinIndex + 0x1`
+
+### *float* local_player_health <sup>info<sup>
+`local_player_SkinIndex + 0x4`
 
 ### *float* local_player_armor <sup>info<sup>
-`local_player_health + 0x4`
+`local_player_SkinIndex + 0x8`
 
 ### *byte* local_player_stamina <sup>info<sup> <sup>无限耐力<sup> 
-`local_player_health + 0x8`
+`local_player_SkinIndex + 0xC`
 
 ### *byte* local_player_bile <sup>info<sup>
-`local_player_health + 0x9`
+`local_player_SkinIndex + 0xD`
 
 ### *byte* local_player_hunger <sup>info<sup>
-`local_player_health + 0xA`
+`local_player_SkinIndex + 0xE`
 
 ### *byte* local_player_thirsty <sup>info<sup>
-`local_player_health + 0xB`
+`local_player_SkinIndex + 0xF`
 
 ### *byte* local_player_disease <sup>info<sup>
-`local_player_health + 0xC`
+`local_player_SkinIndex + 0x10`
 
 ### *byte* local_player_stats_VitalityHealth <sup>info<sup>
-`local_player_health + 0x1C`
+`local_player_SkinIndex + 0x20`
 
 ### *byte* local_player_stats_OverallQuality <sup>info<sup>
 `local_player_stats_VitalityHealth + 0x12`
