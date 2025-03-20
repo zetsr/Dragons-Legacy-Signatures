@@ -37,7 +37,7 @@
 `local_player_info应该基于local_player_base而不是skinindex作为起始点。`
 
 ```
-lpbase = "Dragons-Win64-Shipping.exe" + 0x03051260, 0x30, 0x2D8, 0x108, 0x280, 0x0
+lpbase = "Dragons-Win64-Shipping.exe" + 0x03051260, 0x30, 0x270, 0x698, 0xC8, 0x0
   +0x0    byte   isValid // 216 = valid
   +0x6C8  byte   local_player_skinindex
   +0x6C9  byte   local_player_gender
