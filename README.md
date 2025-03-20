@@ -34,6 +34,25 @@
 
 ~~`?? ?? ?? ?? ?? ?? ?? ?? E6 79 ?? ?? ?? 00 03 00`~~
 
+`local_player_info应该基于local_player_base而不是skinindex作为起始点。`
+
+```
+lpbase = "Dragons-Win64-Shipping.exe" + 0x03004780 + 0x0 + 0x110 + 0x140 + 0x0
+  +0x0    byte   isValid (216 = valid)
+  +0x6C8  byte   skinindex
+  +0x6C9  byte   local_player_Gender
+  +0x6CC  float  local_player_health
+  +0x6D0  float  local_player_armor
+  +0x6D4  byte   local_player_stamina (无限耐力)
+  +0x6D5  byte   local_player_bile
+  +0x6D6  byte   local_player_hunger
+  +0x6D7  byte   local_player_thirsty
+  +0x6D8  byte   local_player_disease
+  +0x6E8  byte   local_player_stats_VitalityHealth
+  +0x6FA  byte   local_player_stats_OverallQuality
+  +0x9D8  float  view_angles (float x，float y, float ?)
+```
+
 `使用这个->`
 
 ### *byte* local_player_SkinIndex <sup>info<sup>
